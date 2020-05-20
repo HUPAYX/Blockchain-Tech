@@ -50,28 +50,44 @@ Due to the above layered structure, it is possible to develop various dAPPs by p
 HUPAYX-HUB - a tool for monitoring status, blocks and transactions tracking
 
 ① Main Screen
+
 • Status dashboard
+
 • Search function
+
 • Block lookup
+
 • Transaction lookup
+
 • Validator Data
+
 • Governance Voting
+
 ![Image description](https://cdn-images-1.medium.com/max/2560/1*sBBKCeYhTFmZ-NAAyZhXbw.png) Example of the HUPAYX Explorer (HUPAYX-HUB)
 ![Image description](https://cdn-images-1.medium.com/max/2560/1*fEdOZRnIF9_NBxSRhxvRcA.png) 
 
 ② Block Search Screen
+
 • Block List
+
 • Block Detail Lookup
+
 ![Image description](https://cdn-images-1.medium.com/max/2560/1*MdlQmnb7pMelu0Wh6DO5xw.png)
 
 ③ Transaction Inquiry screen
+
 • Transaction List
+
 • Query Transaction Details
+
 ![Image description](https://cdn-images-1.medium.com/max/2560/1*chvU7FK55lH0DByMmeH8-g.png)
 
 ④ Validator inquiry screen
+
 • Validator List
+
 • Validator Rankings (Voting Power Order)
+
 • Inquiry of Validator information such as commission
 ![Image description](https://cdn-images-1.medium.com/max/2560/1*mVOLI0mfvwf3q-Dy4dy2dA.png)
 
