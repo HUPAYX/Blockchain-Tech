@@ -33,7 +33,7 @@ Tendermint consensus has accountability as well as Byzantine Fault Tolerance. If
 Tokens can be held by an individual user or by the zone itself, and can be transferred from one zone to another through special IBC packets called "coin packets." The IBC protocol can be defined in two variants: the IBCBlockCommitTx variant, where the blockchain proves the latest block hash to any observer, and the blockchain sends the packet to the recent block hash by the sender's application through Merkle authentication. There is an IBCPacketTx variant that proves it did. By dividing the IBC driving scheme into the above two, the recipient chain's internal fee market mechanism can determine which packets will be committed and freely determine how many outbound packets the transmission chain will allow.
 
 ## •  Blockchain Structure
-![Image description](https://cdn-images-1.medium.com/max/800/1*QbG0lfYhKcb1ZAxFRnbWCA.png)
+![Image description](https://cosmos.network/images/intro/04-sdk.svg)
 ① Tendermint Core (Consensus Algorithm)
 ②ABCI
 Blockchain can be functionally divided into three layers. It's the networking, consensus, and application layers. Prior to Tendermint, all three layers had to be developed from scratch to develop blockchain. This requires a lot of time and effort. In this reality, Tendermint's goal is to make blockchain development easier by providing a standard engine that is responsible for the networking and consensus layers. The only thing developers need to care about is the application layer. The interface that connects the application layer, or state machine, to the consensus engine, is a socket protocol called Tendermint ABCI. You can create application layers using various development languages and then connect to Tendermint through ABCI.
