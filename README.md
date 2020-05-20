@@ -18,7 +18,7 @@ Tendermint is a partial Synchronous Byzantine Fault Tolerant (BFT) consensus pro
 
 ① Public or Private Blockchain Support:
 Tendermint is a blockchain engine that deals only with the networking and consensus layers of the blockchain. In other words, Tendermint engine handles the process by which nodes propagate transactions and the validators agree to add a set of identical transactions to the blockchain. Laws and regulations, such as how a validator is elected, are determined at the application layer. Therefore, developers can create both public and private chains based on Tendermint. If the application layer selects the validator's selection criteria as 'how many coins are bundled', the blockchain becomes a POS (Proof-Of-Stake) blockchain. However, if the verifier in the application layer specifies that only limited subjects can be verified, the blockchain becomes a private blockchain based on proof-of-authority (POA). Developers are free to set the criteria for selecting the validator of their blockchain.
-![Image description](https://drive.google.com/file/d/1opxsaKyTIg3U6nUXnUwOLIkeNSmsrsGs/view?usp=sharing)
+![Image description](https://cdn-images-1.medium.com/max/800/1*Sq6Nplp8Gw0J_zih32vt3A.png)
 
 ② High Performance:
 Tendermint cores have a block time of about 1 second and process thousands of transactions per second.
